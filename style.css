@@ -1,4 +1,4 @@
-* {
+* {//recreating the login page of Netflix
     margin: 0;
     padding: 0;
     font-family: 'Poppins',sans-serif;
@@ -16,13 +16,13 @@ body{
     background-position:center;
     padding:10px 8%;
     position:relative;
-}
+} //navigation bar
 nav {
     display:flex;
     align-items:center;
     justify-content:space-between;
     padding: 10px 0;
-}
+} //logo of netflix
 .logo {
     width:150px;
     cursor:pointer;
@@ -37,7 +37,7 @@ nav button{
     border-radius:4px;
     margin-left:10px;
     cursor:pointer;
-}
+}//language prefernce
 .language-btn {
     display:inline-flex;
     align-items:center;
@@ -66,7 +66,7 @@ nav button{
 .header-content h3{
     font-weight:400;
     margin-bottom:20px;
-}
+}//sign up and login option given to user
 .email-signup{
     background:#fff;
     border-radius:4px;
